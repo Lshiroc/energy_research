@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CodeCarbon files written outside results/ (e.g. when running a script from the wrong folder)
+/emissions.csv
+/emissions_*.csv
+.codecarbon.config
+codecarbon.lock
+
+# Cached datasets / model files
+*.npz
+*.keras
+*.h5
